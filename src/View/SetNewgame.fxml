@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.ComboBox?>
+<AnchorPane id="newgame" fx:id="newgame" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="600.0" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@MainMenuStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.SetNewgameController">
+    <children>
+        <AnchorPane id="insidepane" fx:id="insidepane" minHeight="400.0" minWidth="600.0" prefHeight="1080.0" prefWidth="1920.0">
+            <children>
+                <Button id="BackButton" fx:id="BackButton" layoutX="50.0" layoutY="32.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="247.0" stylesheets="@MainMenuStyle.css" />
+                <Button id="MuteButtonMusic" fx:id="MuteButtonMusic" layoutX="1778.0" layoutY="32.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="92.0" stylesheets="@MainMenuStyle.css" />
+                <Button id="MuteButtonSfx" fx:id="MuteButtonSfx" layoutX="1657.0" layoutY="32.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="92.0" stylesheets="@MainMenuStyle.css" />
+                <Button id="b_startgame" fx:id="b_startgame" layoutX="731.0" layoutY="847.0" mnemonicParsing="false" prefHeight="146.0" prefWidth="509.0" stylesheets="@MainMenuStyle.css" />
+            <ComboBox id="cb_algorithm" fx:id="cb_algorithm" layoutX="810.0" layoutY="750.0" prefHeight="31.0" prefWidth="298.0" />
+            <Label id="l_algorithm" fx:id="l_algorithm" contentDisplay="CENTER" layoutX="807.0" layoutY="655.0" prefHeight="69.0" prefWidth="297.0" text="Solver Algorithm" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="43.0" />
+               </font>
+            </Label>
+            <Label id="l_mazesize" fx:id="l_mazesize" contentDisplay="CENTER" layoutX="860.0" layoutY="457.0" prefHeight="73.0" prefWidth="194.0" text="Maze Size" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="47.0" />
+               </font>
+            </Label>
+            <TextField id="tf_width" fx:id="tf_width" layoutX="730.0" layoutY="578.0" prefHeight="31.0" prefWidth="200.0" promptText="width" />
+            <TextField id="tf_height" fx:id="tf_height" layoutX="1000.0" layoutY="578.0" prefHeight="31.0" prefWidth="200.0" promptText="height" />
+            </children>
+        </AnchorPane>
+        <Pane id="stamblack" fx:id="stamblack" minHeight="400.0" minWidth="600.0" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #111111; -fx-background-size: 100% 100%;" visible="false" />
+    </children>
+</AnchorPane>

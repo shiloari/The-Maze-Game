@@ -1,0 +1,100 @@
+
+.button {
+    -fx-background-size: 100% 100%;
+    -fx-background-color: transparent;
+    -fx-cell-size: 100% 100%;
+}
+#WinPane{
+    -fx-background-size: 100% 100%;
+    -fx-background-image: url('css/woodsBG.jpeg');
+    -fx-background-color: transparent;
+}
+#Canvaspane{
+    -fx-background-size: 100% 100%;
+    -fx-background-color: transparent;
+}
+#Mazepane{
+    -fx-background-image: url('css/Maze_BG.png');
+    -fx-background-color: Black;
+    -fx-background-size: 100% 100%;
+}
+#b_mazesettings{-fx-background-image: url('css/buttonsetting.png');}
+#b_hint{-fx-background-image: url('css/HINT.png');}
+#b_save{-fx-background-image: url('css/SAVE.png');}
+#b_solve{-fx-background-image: url('css/SOLVE.png');}
+
+#b_startgame{-fx-background-image: url('css/NEWGAME.png');}
+#newgame{
+    -fx-background-image: url('css/BG.png');
+    -fx-background-color: Black;
+    -fx-background-size: 100% 100%;
+}
+#about{
+    -fx-background-image: url('css/BG.png');
+    -fx-background-color: Black;
+    -fx-background-size: 100% 100%;
+}
+#controls{
+    -fx-background-image: url('css/BG.png');
+    -fx-background-color: Black;
+    -fx-background-size: 100% 100%;
+}
+#howto{
+     -fx-background-image: url('css/howto.png');
+}
+
+#sound{
+    -fx-background-image: url('css/BG.png');
+    -fx-background-color: Black;
+    -fx-background-size: 100% 100%;
+}
+#i_music{-fx-background-image: url('css/audio.png');}
+#i_sound{-fx-background-image: url('css/speaker.png');}
+
+#video{
+    -fx-background-image: url('css/BG.png');
+    -fx-background-color: Black;
+    -fx-background-size: 100% 100%;
+}
+
+
+#settings{
+    -fx-background-image: url('css/BG.png');
+    -fx-background-color: Black;
+    -fx-background-size: 100% 100%;
+}
+#b_video{-fx-background-image: url('css/video.png');}
+
+#b_sound{-fx-background-image: url('css/SOUND.png');}
+#b_controls{-fx-background-image: url('css/CONTROLS.png');}
+#b_about{-fx-background-image: url('css/about.png');}
+
+
+#howtopane{
+    -fx-background-image: url('css/HowToBG.png');
+    -fx-background-color: Black;
+    -fx-background-size: 100% 100%;
+}
+#b_letsgo{
+    -fx-background-image: url('css/Letsgo.png');
+}
+
+
+#insidepane{
+    -fx-background-image: url('css/BG.png');
+    -fx-background-color: Black;
+    -fx-background-size: 100% 100%;
+}
+#pane{
+    -fx-background-image: url('css/BG.png');
+    -fx-background-color: Black;
+    -fx-background-size: 100% 100%;
+}
+#BackButton{-fx-background-image: url('css/BACK.png');}
+#MuteButtonMusic{-fx-background-image: url('css/head.png');}
+#MuteButtonSfx{-fx-background-image: url('css/VOLUME.png');}
+#b_newgame{-fx-background-image: url('css/NEWGAME.png');}
+#b_loadgame{-fx-background-image: url('css/LOADGAME.png');}
+#b_scoreboard{-fx-background-image: url('css/scoreboard.png');}
+#b_settings{-fx-background-image: url('css/SETTINGS.png');}
+#ExitButton{-fx-background-image: url('css/EXIT.png');}

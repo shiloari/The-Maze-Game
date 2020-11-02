@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="sound" fx:id="sound" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@MainMenuStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.SoundController">
+    <children>
+        <Button id="BackButton" fx:id="BackButton" layoutX="50.0" layoutY="32.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="247.0" stylesheets="@MainMenuStyle.css" />
+        <Label id="l_sound" fx:id="l_sound" alignment="CENTER" contentDisplay="CENTER" layoutX="796.0" layoutY="486.0" prefHeight="128.0" prefWidth="337.0" text="Sound" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Impact" size="96.0" />
+            </font>
+        </Label>
+      <Slider id="s_slidemusic" fx:id="s_slidemusic" layoutX="891.0" layoutY="733.0" prefHeight="20.0" prefWidth="264.0" stylesheets="@MainMenuStyle.css" />
+      <Slider id="s_slidesound" fx:id="s_slidesound" layoutX="893.0" layoutY="845.0" prefHeight="10.0" prefWidth="262.0" stylesheets="@MainMenuStyle.css" />
+      <Button id="i_music" fx:id="i_music" layoutX="751.0" layoutY="714.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="85.0" stylesheets="@MainMenuStyle.css" />
+      <Button id="i_sound" fx:id="i_sound" layoutX="752.0" layoutY="832.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="84.0" stylesheets="@MainMenuStyle.css" />
+    </children>
+</AnchorPane>

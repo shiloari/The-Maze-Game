@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="pane" fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="400.0" minWidth="600.0" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@MainMenuStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MainMenuController">
+   <children>
+      <AnchorPane id="insidepane" fx:id="insidepane" minHeight="400.0" minWidth="600.0" prefHeight="1080.0" prefWidth="1920.0">
+         <children>
+            <Button id="ExitButton" fx:id="ExitButton" layoutX="50.0" layoutY="32.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="216.0" stylesheets="@MainMenuStyle.css" />
+            <Button id="MuteButtonMusic" fx:id="MuteButtonMusic" layoutX="1778.0" layoutY="32.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="92.0" stylesheets="@MainMenuStyle.css" />
+            <Button id="MuteButtonSfx" fx:id="MuteButtonSfx" layoutX="1657.0" layoutY="32.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="92.0" stylesheets="@MainMenuStyle.css" />
+            <Button id="b_newgame" fx:id="b_newgame" layoutX="731.0" layoutY="436.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="493.0" stylesheets="@MainMenuStyle.css" />
+            <Button id="b_loadgame" fx:id="b_loadgame" layoutX="823.0" layoutY="568.0" mnemonicParsing="false" prefHeight="114.0" prefWidth="360.0" stylesheets="@MainMenuStyle.css" />
+            <Button id="b_scoreboard" fx:id="b_scoreboard" layoutX="727.0" layoutY="730.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="364.0" stylesheets="@MainMenuStyle.css" />
+            <Button id="b_settings" fx:id="b_settings" layoutX="864.0" layoutY="878.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="260.0" stylesheets="@MainMenuStyle.css" />
+         </children>
+      </AnchorPane>
+      <Pane id="stamblack" fx:id="stamblack" minHeight="400.0" minWidth="600.0" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #111111; -fx-background-size: 100% 100%;" visible="false" />
+   </children>
+</AnchorPane>
